@@ -9,6 +9,8 @@
     <header>
         <div>
             <img src="https://img.freepik.com/premium-vector/camera-with-flowers_654516-5.jpg" height="100" wight="100" alt="logo"> 
+            
+            <!-- Тут, краще було використати h1 -->
             <p>
                 photo | video making 
             </p>
@@ -16,6 +18,27 @@
     </header>
     <main>
         <section>
+            
+            <!-- Тут, також div зайвий. Структура буде простіша -->
+            <!-- ось приклад більш семантичної структури
+                <article>
+                    <h2>NATALI MANZULEVSKA</h2>
+                    <span>Photograph in Kyiv </span>
+                    <p>
+                        <img src="https://aperepelitsa.com.ua/assets/image/home/seo-3.jpg" width="300"  alt="Alina Stoiko photo">
+            
+                        Welcome to my website site! My name is Natalie, 
+                        I am a professional photographer in Kyiv and the Kyiv region, 
+                        and I am also always open to photo shoots in other cities of Ukraine and abroad! 
+                        I have been engaged in photography at a professional level since 2012. 
+                        She conducted many photo sessions not only in Ukraine - she worked as a photographer 
+                        in the USA, Greece, China, Turkey, India. I will always be happy to provide you with services 
+                        in this exciting world of modern photography!
+                    </p>
+                    <a href="https://google.com">Contact</a>
+                </article>
+            
+            -->
             <div>
                 <h1>
                     NATALI MANZULEVSKA
@@ -30,6 +53,7 @@
                 </p>
             </div>
             <div>
+                <!-- Це груба помилка. <a> це елемент посилання, а button це елемент форми, у кожного з них є передбачений обробник події, тому буде конфлікт -->
                 <button>
                     <a href="https://google.com">Contact</a>
                 </button>
